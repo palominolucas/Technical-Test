@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website to input Movies!</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <h1 class="clasi">Enter your Clasification here to create: <br></h1>
+        <div class="clasi-form"> 
+            <form action="/action_page.php">
+                <label for="ID">ID:</label><br>
+                <input type="text"><br>
+                <label for="clasific">Nombre:</label><br>
+                <input type="text"><br>
+                <input type="submit" value="Submit">
+              </form> 
+        </div>
+
+        <h1 class="movie">Enter your Movie here to create: <br></h1>
+        <div class="movie-form">
+            <form action="/action_page.php">
+                <label for="ID">ID:</label><br>
+                <input type="text"><br>
+                <label for="lname">Movie's name:</label><br>
+                <input type="text"><br><br>
+                <label for="direct">Director:</label><br>
+                <input type="text"><br>
+                <label for="clasific">Clasification:</label><br>
+                <select class="class-select">
+                    <option value="audi"></option>
+                </select>
+                <input type="submit" value="Submit">
+              </form> 
+        </div>
+
+
+    </body>
+</html>

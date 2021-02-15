@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website to input Movies!</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h2>Movies</h2>
+    </header>
+    <div class="topnav">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="class.html">Clasifications</a>
+            <a href="emovie.html">Edit</a>
+            <a href="" style="float: right;">About Us</a>
+        </nav>
+    </div>
+    <section style="margin-top: 50px;">
+        <div class="div" id="div">
+            <div class="div">
+                <form class="form">
+                    <h5>Load a Movie:</h5>
+                    <label for="ID">ID:</label><br>
+                    <input type="text"><br>
+                    <label for="lname">Movie's name:</label><br>
+                    <input type="text"><br><br>
+                    <label for="direct">Director:</label><br>
+                    <input type="text"><br>
+                    <label for="clasific">Clasification:</label><br>
+                    <select class="class-select">
+                        <option value="audi"></option>
+                    </select>
+                    <input type="submit" value="Create">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div id="main-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Movie</th>
+                    <th>Director</th>
+                    <th>Clasification</th>
+                    <th>View Options</th>
+                </tr>
+            </thead>
+            <tr id="tds">
+            </tr>
+
+
+        </table>
+    </div>
+
+<script src="movie.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+#main{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    padding: 0%;;
+}
+#conClass{
+    background-color: blue;
+    float: left;
+    width: 50%;
+    height: 75%;
+    text-align: center;
+}
+#conClass:hover{
+    background-color: aqua;
+}
+#conMovie{
+    background-color: chartreuse;
+    float: right;
+    width: 50%;
+    height: 75%;
+}
+#conMovie:hover{
+    background-color: cadetblue;
+}
+#conVclass{
+    background-color: crimson;
+    float: left;
+    width: 50%;
+    height: 25%;
+    align-content: center;
+}
+#conVclass:hover{
+    background-color:darkslateblue;
+}
+#conVmovie{ 
+    background-color: darkgoldenrod;
+    float: right;
+    width: 50%;
+    height: 25%;
+}
+#conVmovie:hover{
+    background-color:darkred;
+}
+#class{
+    color:black;
+    margin-top: 28%;
+    font-family: Arial;
+    text-align: center;
+
+}
+#movie{
+    color:black;
+    margin-top: 28%;
+    font-family: Arial;
+    text-align: center;
+    align-content: center;
+}
+#vclass{
+    color:black;
+    text-align: center;
+    align-content: center;
+}
+#vmovie{
+    color:black;
+    text-align: center;
+    align-content: center;
+}
